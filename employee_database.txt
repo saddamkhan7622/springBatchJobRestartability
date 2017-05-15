@@ -1,0 +1,50 @@
+
+Create table
+============
+
+CREATE  TABLE `employee`.`employee_details` (
+  `emp_id` INT NOT NULL ,
+  `emp_name` VARCHAR(45) NULL ,
+  `emp_dept` VARCHAR(45)
+ NULL ,
+  PRIMARY KEY (`emp_id`) );
+
+
+Insert Records
+==============
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES 
+('101', 'saddam', 'SD');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES 
+('102', 'rakhi', 'SD');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES 
+('103', 'sneha', 'QA');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES 
+('104', 'ali', 'QA');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES
+('105', 'prabhakar', 'SD');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES 
+('106', 'madhu', 'SD');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES 
+('107', 'rama', 'SD');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES
+('108', 'aamani', 'QA');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES
+('109', 'aayat', 'SD');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES
+('110', 'mounika', 'SD');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) VALUES
+('111', 'vinod', 'QA');
+
+INSERT INTO `employee`.`employee_details` (`emp_id`, `emp_name`, `emp_dept`) 
+VALUES ('112', 'sandeep', 'BA');
